@@ -1,0 +1,38 @@
+h1 {
+  font-family: Lucida Handwriting;
+}
+
+body {
+  background-image: url(./assets/tile.jpg);
+}
+
+form {
+  background-image: url(./assets/formbg.jpg);
+}
+
+#cardContainer > div {
+  animation: fadeIn 1s;
+  background-image: url(./assets/notebg.png);
+  height: 250px;
+  width: 200px;
+  margin-left: 15px;
+}
+
+.tasks {
+  height: 175px;
+  width: 175px;
+  overflow: scroll;
+}
+
+.tasks::-webkit-scrollbar {
+  display: none;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
