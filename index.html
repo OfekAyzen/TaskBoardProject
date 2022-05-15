@@ -16,15 +16,11 @@
     <!-- Custom stylesheet -->
     <link rel="stylesheet" href="./styles.css" />
     <!-- Link to older version of bootstrap (for glyphicon) -->
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
-    />
   </head>
   <body>
     <h1 class="text-center">My Task Board</h1>
     <div class="row justify-content-md-center">
-      <form id="action" class="col-5">
+      <form id="action" class="col-5" action="#">
         <div class="col-4 offset-2">
           <label>Task Description:</label>
           <textarea
@@ -36,7 +32,7 @@
         </div>
         <div class="col-4 offset-2">
           <label>Date of Experation:</label>
-          <input class="form-control" id="userInputDate" type="date" required />
+          <input class="form-control" id="userInputDate" type="date" />
         </div>
         <div class="col-4 offset-2">
           <label>Time of Experation:</label>
